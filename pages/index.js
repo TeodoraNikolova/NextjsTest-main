@@ -1,4 +1,5 @@
-import { Hero } from '../sections'
+/* eslint-disable @next/next/no-page-custom-font */
+import { Hero } from '../sections/Hero'
 import { Main } from '../sections/Main/Main'
 
 const heroProps = {

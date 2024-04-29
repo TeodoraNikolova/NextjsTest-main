@@ -8,7 +8,7 @@ import {
   StyledDescription,
   StyledCTAContainer,
   StyledImageContainer,
-} from "./elements";
+} from "../Hero/elements";
 
 export const Hero = ({ image, title, description, ctaText, ...props }) => {
   return (

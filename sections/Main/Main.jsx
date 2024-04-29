@@ -7,7 +7,7 @@ import {
   StyledDescriptionContainer, 
   StyledContainer, 
   StyledImageContainer 
-} from "./elements";
+} from "../Main/elements";
 
 import { Card } from "../../collections/Card/Card";
 
