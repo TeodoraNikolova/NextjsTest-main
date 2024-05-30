@@ -26,31 +26,21 @@ export const StyledSubHeading  = styled((props) => <SectionSubheading {...props}
 `;
 
 export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
-  max-width: 32.03rem;
-  max-height: 65rem;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
+max-width: 100%; 
+max-height: 65rem;
+width: 100%;
+height: 100%;
+justify-content: center;
 `;
 
 export const StyledDescriptionContainer  = styled((props) => <div {...props} />)`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
-  border-radius: 8px;
-  margin-top: 20px;
-  max-width: 1024px;
-  width: 100%;
-
-  @media (max-width: 1100px) {
-    flex-direction: column;
-    padding: 1rem; 
-  }
-
-  @media (max-width: 600px) {
-    padding: 0.5rem; 
-  }
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 8px;
+margin-top: 20px;
+max-width: 100%; 
+width: 100%;
 `;
 
 export const StyledContainer = styled((props) => <div {...props} />)`
