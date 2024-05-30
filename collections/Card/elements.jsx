@@ -8,6 +8,11 @@ width: 100%;
 height: auto;
 margin: 0 auto;
 gap: 0.5rem; 
+
+@media (max-width: 600px) {
+  padding: 0.5rem;
+}
+
 `;
 
 
@@ -16,6 +21,11 @@ font-family: Poppins;
 font-size: 0.875rem; 
 line-height: 1.25rem;
 font-weight: 300;
+
+@media (max-width: 600px) {
+  font-size: 0.75rem; 
+  line-height: 1rem; 
+}
 `;
 
 export const StyledInnerHeading = styled(({ ...props }) => <h1 {...props} />)`
