@@ -7,6 +7,19 @@ export const StyledContainer = styled.div`
   width: 100%;
   margin: 0 auto;
   gap: 0.5rem; 
+
+  @media (max-width: 1100px) {
+    width: 90%;
+  }
+
+  @media (max-width: 600px) {
+    width: 70%;
+    padding: 1rem;
+  }
+
+  @media (max-width: 350px) {
+    padding: 0.5rem;
+  }
 `;
 
 export const StyledDescription = styled.div`
@@ -44,7 +57,7 @@ export const StyledImageContainer = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 100%;
+    width: 80%;
     padding: 1rem;
   }
 
