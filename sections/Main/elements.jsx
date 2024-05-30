@@ -5,7 +5,7 @@ import {
   SectionHeading
 } from '../../components'
 
-export const StyledMainContainer = styled((props) => <div {...props} />)`
+export const StyledMainContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,40 +15,37 @@ export const StyledMainContainer = styled((props) => <div {...props} />)`
   background-position: center;
 `;
 
-export const StyledHeading = styled((props) => <SectionHeading {...props} />)`
+export const StyledHeading = styled(SectionHeading)`
   color: black;
   margin: 0;
 `;
 
-export const StyledSubHeading  = styled((props) => <SectionSubheading {...props} />)`
+export const StyledSubHeading  = styled(SectionSubheading)`
   color:black;
   margin: 0;
 `;
 
-export const StyledImageContainer = styled(({ ...props }) => <div {...props} />)`
-max-width: 100%; 
-max-height: 65rem;
-width: 100%;
-height: 100%;
-justify-content: center;
+export const StyledImageContainer = styled.div`
+  max-width: 100%; 
+  width: 100%;
+  justify-content: center;
 `;
 
-export const StyledDescriptionContainer  = styled((props) => <div {...props} />)`
-display: flex;
-align-items: center;
-justify-content: space-between;
-border-radius: 8px;
-margin-top: 20px;
-max-width: 100%; 
-width: 100%;
+export const StyledDescriptionContainer  = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 100%; 
+  width: 100%;
 `;
 
-export const StyledContainer = styled((props) => <div {...props} />)`
+export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: auto;
   margin: 0 auto;
   gap: 1rem;
 
