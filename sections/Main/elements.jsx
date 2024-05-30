@@ -45,11 +45,11 @@ export const StyledDescriptionContainer  = styled((props) => <div {...props} />)
 
   @media (max-width: 1100px) {
     flex-direction: column;
-    padding: 1rem;
+    padding: 1rem; 
   }
 
   @media (max-width: 600px) {
-    padding: 0.5rem;
+    padding: 0.5rem; 
   }
 `;
 
