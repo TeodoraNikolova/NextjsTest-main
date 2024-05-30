@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const StyledContainer = styled(({ ...props }) => <div {...props} />)`
   display: flex;
-  max-width: 1920px;
   align-items: center;
   width: 100%;
   height: auto;
