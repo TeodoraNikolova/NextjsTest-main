@@ -34,7 +34,7 @@ export const StyledDescription = styled.div`
   }
 
   @media (max-width: 350px) {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     line-height: 0.9rem;
   }
 `;
@@ -48,7 +48,7 @@ export const StyledInnerHeading = styled.h1`
 
   @media (max-width: 600px) {
     font-size: 0.875rem;
-    line-height: 1rem;
+    line-height: 0.9rem;
   }
 
   @media (max-width: 350px) {

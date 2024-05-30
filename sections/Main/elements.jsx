@@ -39,6 +39,11 @@ export const StyledDescriptionContainer  = styled.div`
   margin-top: 20px;
   max-width: 100%; 
   width: 100%;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const StyledContainer = styled.div`
