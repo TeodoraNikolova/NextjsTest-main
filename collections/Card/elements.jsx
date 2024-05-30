@@ -4,32 +4,34 @@ import styled from 'styled-components'
 
 export const StyledContainer = styled(({ ...props }) => <div {...props} />)`
 display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 300px; 
-  height: 400px; 
-  border-radius: 6px;
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+flex-direction: column;
+align-items: center;
+width: 100%;
+max-width: 300px; /* Fixed width for card */
+height: 400px; /* Fixed height for card */
+border-radius: 6px;
+overflow: hidden;
+transition: transform 0.3s, box-shadow 0.3s;
 
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+&:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-  @media (max-width: 1100px) {
-    max-width: 90%;
-    height: auto;
-  }
+@media (max-width: 1100px) {
+  max-width: 90%;
+  height: auto;
+}
 
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
+@media (max-width: 600px) {
+  max-width: 100%;
+  height: auto;
+}
 
-  @media (max-width: 350px) {
-    padding: 0.5rem;
-  }
+@media (max-width: 350px) {
+  padding: 0.5rem;
+  max-width: 100%;
+}
 `;
 
 export const StyledDescription = styled(({ ...props }) => <div {...props} />)`
@@ -88,26 +90,26 @@ text-align: center;
 }
 `;
 
+
 export const StyledImageContainer  = styled(({ ...props }) => <div {...props} />)`
 display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-height: auto;
-padding: 1rem;
-
-img {
-  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: auto;
-}
+  padding: 1rem;
 
-@media (max-width: 600px) {
-  padding: 0.5rem;
-}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-@media (max-width: 350px) {
-  padding: 0.25rem;
-}
+  @media (max-width: 600px) {
+    padding: 0.5rem;
+  }
+
+  @media (max-width: 350px) {
+    padding: 0.25rem;
+  }
 `;
-
 
