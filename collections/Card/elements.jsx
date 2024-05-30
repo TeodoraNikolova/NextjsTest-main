@@ -81,7 +81,7 @@ export const StyledImageContainer = styled.div`
   height: auto;
   justify-content: center;
   padding: 2rem;
-
+  
   @media (max-width: 1100px) {
     width: 90%;
   }

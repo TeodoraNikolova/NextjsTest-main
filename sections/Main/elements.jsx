@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {
   SectionSubheading,
   StyledSectionContainer,
-  SectionHeading
+  SectionHeading 
 } from '../../components'
 
 export const StyledMainContainer = styled.div`
