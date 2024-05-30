@@ -42,20 +42,28 @@ align-items: center;
 justify-content: space-between;
 padding: 2rem;
 border-radius: 8px;
-margin-top: 20px; 
+margin-top: 20px;
 max-width: 1024px;
+width: 100%;
+
+@media (max-width: 1100px) {
+  flex-direction: column;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  padding: 0.5rem;
+}
 `;
 
 export const StyledContainer = styled((props) => <div {...props} />)`
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   gap: 1rem;
-  max-width: 1920px;
 
   & > div:nth-child(1) {
     width: 70%;
@@ -64,13 +72,27 @@ display: flex;
 
   & > div:nth-child(2) {
     width: 80%;
-    background-color: #E6E6E6; 
+    background-color: #E6E6E6;
   }
 
   & > div:nth-child(3) {
     width: 90%;
     background-color: #D9D9D9;
   }
-  `;
 
+  @media (max-width: 1100px) {
+    & > div:nth-child(1),
+    & > div:nth-child(2),
+    & > div:nth-child(3) {
+      width: 100%;
+    }
+  }
 
+  @media (max-width: 600px) {
+    gap: 0.5rem;
+  }
+
+  @media (max-width: 350px) {
+    gap: 0.25rem;
+  }
+`;
