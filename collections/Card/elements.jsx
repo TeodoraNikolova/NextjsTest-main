@@ -1,20 +1,17 @@
 import styled from 'styled-components';
 
 export const StyledContainer = styled(({ ...props }) => <div {...props} />)`
-  display: flex;
-  max-width: 1920px;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  transition: border 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+display: flex;
+max-width: 1920px;
+align-items: center;
+width: 100%;
+height: auto;
+border-radius: 6px;
 
-  &:hover {
-    border: 2px solid #3F51B5;
-    color: #3F51B5;
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+&:hover {
+  border: 2px solid #3F51B5; 
+  color: #3F51B5; 
+}
 
   @media (max-width: 1100px) {
     flex-direction: column;

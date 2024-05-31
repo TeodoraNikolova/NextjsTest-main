@@ -45,11 +45,11 @@ export const StyledDescriptionContainer  = styled((props) => <div {...props} />)
 
   @media (max-width: 1100px) {
     flex-direction: column;
-    padding: 1rem; /* Adjust padding for smaller screens */
+    padding: 1rem; 
   }
 
   @media (max-width: 600px) {
-    padding: 0.5rem; /* Adjust padding for consistency */
+    padding: 0.5rem; 
   }
 `;
 
@@ -59,8 +59,23 @@ export const StyledContainer = styled((props) => <div {...props} />)`
   justify-content: center;
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: auto;
   gap: 1rem;
+
+  & > div:nth-child(1) {
+    width: 70%;
+    background-color: #F2F2F2;
+  }
+
+  & > div:nth-child(2) {
+    width: 80%;
+    background-color: #E6E6E6; 
+  }
+
+  & > div:nth-child(3) {
+    width: 90%;
+    background-color: #D9D9D9;
+  }
 
   @media (max-width: 600px) {
     gap: 0.5rem;
