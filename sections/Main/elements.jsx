@@ -22,7 +22,7 @@ export const StyledHeading = styled(SectionHeading)`
 
 export const StyledSubHeading  = styled(SectionSubheading)`
   color:black;
-  margin: 0;
+  margin: 0; 
 `;
 
 export const StyledImageContainer = styled.div`
