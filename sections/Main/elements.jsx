@@ -13,7 +13,7 @@ export const StyledMainContainer = styled.div`
   background-image: url('/img/background.png');
   background-size: cover;
   background-position: center;
-`;
+`; 
 
 export const StyledHeading = styled(SectionHeading)`
   color: black;

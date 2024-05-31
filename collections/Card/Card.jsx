@@ -14,4 +14,4 @@ export const Card = ({ card }) => {
       </StyledDescription> 
     </StyledContainer>
   );
-}; 
+};

@@ -19,4 +19,4 @@ export const Main =({ image, heading, subHeading, cards, ...props }) => {
       </StyledDescriptionContainer>
     </StyledMainContainer>
   );
-}; 
+};

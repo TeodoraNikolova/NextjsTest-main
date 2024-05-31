@@ -19,7 +19,7 @@ const mainProps = {
       title: 'Brief',
       description:
         "Complete <strong>brief writing or simple guidance</strong> on what to include, we've got you covered.",
-    },
+    }, 
     {
       image: { src: '/img/search.png', alt: '', width: 90, height: 70 },
       title: 'Search',
