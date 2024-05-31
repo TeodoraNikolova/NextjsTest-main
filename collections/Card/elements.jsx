@@ -15,15 +15,15 @@ border-radius: 6px;
 
   @media (max-width: 1100px) {
     flex-direction: column;
-    padding: 1rem; /* Add padding for smaller screens */
+    padding: 1rem; 
   }
 
   @media (max-width: 600px) {
-    padding: 1rem; /* Adjust padding for consistency */
+    padding: 1rem; 
   }
 
   @media (max-width: 350px) {
-    padding: 0.5rem; /* Adjust padding for consistency */
+    padding: 0.5rem; 
   }
 `;
 
