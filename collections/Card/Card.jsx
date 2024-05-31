@@ -11,7 +11,7 @@ export const Card = ({ card }) => {
       <StyledDescription>
         <StyledInnerHeading>{title}</StyledInnerHeading>
         <StyledTinyText dangerouslySetInnerHTML={{ __html: description }} />
-      </StyledDescription> 
+      </StyledDescription>
     </StyledContainer>
   );
 };
